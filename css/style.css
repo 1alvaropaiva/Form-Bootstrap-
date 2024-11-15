@@ -45,3 +45,13 @@ body {
 .form-floating label {
     color: darkgray;
 }
+
+label {
+    transition: color 0.3s ease, font-weight 0.3s ease;
+}
+
+
+#floatingInput:focus + label,
+#floatingPassword:focus + label {
+    font-weight: bold;
+}
