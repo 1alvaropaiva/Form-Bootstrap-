@@ -6,3 +6,42 @@ html, body {
     max-width: 350px;
     padding: 1rem;
 }
+
+body {
+    background: radial-gradient(circle, #DAA520, black);
+    min-height: 100vh;
+    margin: 0;
+}
+
+.form-check-label {
+    color: black;
+}
+
+.id {
+    margin-bottom: 15px;
+    color: black;
+    font-weight: normal;
+}
+
+.btn-primary {
+    background-color: #363636; 
+    color: #A9A9A9;
+    border: #DAA520;
+}
+
+.btn-primary:hover {
+    background-color: black;
+}
+
+.form-control {
+    background-color: #363636;
+    color: white;
+}
+
+.form-check-input:hover {
+    cursor: pointer;
+}
+
+.form-floating label {
+    color: darkgray;
+}
