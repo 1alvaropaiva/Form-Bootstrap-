@@ -32,19 +32,16 @@
         </form>
     </main>
     <script>
-        document.getElementById("floatinInput").addEventListener("focus", function() {
+        document.getElementById("floatinInput").addEventListener("focus", function () {
             document.querySelector("label[for='floatinInput']").textContent = "E-mail";
         });
-
-        document.getElementById("floatinInput").addEventListener("blur", function() {
+        document.getElementById("floatinInput").addEventListener("blur", function () {
             document.querySelector("label[for='floatinInput']").textContent = "E-mail";
         });
-
-        document.getElementById("floatinSenha").addEventListener("focus", function() {
+        document.getElementById("floatinSenha").addEventListener("focus", function () {
             document.querySelector("label[for='floatinSenha']").textContent = "Nota: sua senha possui 8 dígitos e 1 caracter";
         });
-
-        document.getElementById("floatinSenha").addEventListener("blur", function() {
+        document.getElementById("floatinSenha").addEventListener("blur", function () {
             document.querySelector("label[for='floatinSenha']").textContent = "Senha";
         });
     </script>
